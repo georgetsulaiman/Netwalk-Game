@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button2"
+        android:id="@+id/button2"
+        android:background="?attr/colorPrimaryDark"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="46dp"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button3"
+        android:id="@+id/button3"
+        android:background="?attr/colorPrimaryDark"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="52dp"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:layout_above="@+id/button4"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button4"
+        android:id="@+id/button4"
+        android:layout_marginBottom="166dp"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:textColor="@android:color/background_light"
+        android:background="?attr/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2" />
+
+    <TextView
+        android:text="Select Difficulty:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/textView2"
+        android:textColor="?attr/colorPrimaryDark"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp" />
+
+
+</RelativeLayout>

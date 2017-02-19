@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="In this game, you are a network administrator, and someone has scrambled your network. Your job is to rotate all the pieces so that every computer is connected to the server. Netwalk is scored by the number of clicks it takes you to rotate everything into place. THE LOWER THE BETTER!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_weight="0.37" />
+
+    <TextView
+        android:text="How to play:"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="30sp"
+        android:textColor="?attr/colorPrimaryDark"
+        android:layout_marginRight="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginTop="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+</RelativeLayout>
